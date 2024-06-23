@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/021c70449c.js" crossorigin="anonymous"></script>
+    <title>Junior Developer Task</title>
+  </head>
+  <body>
+
+    <div class="d-lg-block d-none">
+    <nav class="navbar navbar-expand-lg navbar-light navbar01 pt-3 pb-2">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="./assets/logo.png" class="logo01">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav m-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle item01" href="#" role="button" id="navbarDropdown" data-toggle="dropdown" aria-expanded="false">
+                Home
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle item01" href="#" role="button" data-toggle="dropdown" id="navbarDropdown01" aria-expanded="false">
+                About
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle item01" href="#" role="button" data-toggle="dropdown" id="navbarDropdown01" aria-expanded="false">
+                Roadmap
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+           
+            <li class="nav-item">
+              <a class="nav-link item01" href="#">Collection</a>
+            </li>
+
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle item01" href="#" role="button" data-toggle="dropdown" id="navbarDropdown01" aria-expanded="false">
+                FAQS
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+          </ul>
+          <span class="navbar-text">
+            <div class="d-flex flex-row">
+              <div class="light-container d-flex flex-column justify-content-center">
+                <div class="d-flex flex-row justify-content-center">
+                <img src="./assets/icon.png" class="icon01">
+              </div>
+            </div>
+            <button class="button01"><i class="fa-brands fa-discord pr-2"></i>discord</button>
+            <button class="button02"><i class="fa-solid fa-wallet pr-2"></i>wallet</button>
+            </div>
+          </span>
+        </div>
+      </div>
+      </nav>
+    </div>
+
+    <div class="d-block d-lg-none">
+     <div class="mobile-navbar  pt-3 pb-3">
+      <div class="d-flex flex-row justify-content-between mb-2">
+      <i class="fa-solid fa-bars-staggered bars01" id="menu01"></i>
+      <img src="./assets/logo.png" class="mobile-logo">
+      <div class="mlight-container d-flex flex-column justify-content-center">
+        <div class="d-flex flex-row justify-content-center">
+        <img src="./assets/icon.png" class="micon01" >
+      </div>
+    </div>
+    
+     </div>
+
+     <div class="navbar-menu" id="menu">
+     <div>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle item02" href="#" role="button" id="navbarDropdown" data-toggle="dropdown" aria-expanded="false">
+          Home
+        </a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+     </div>
+
+     <div>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle item02" href="#" role="button" id="navbarDropdown" data-toggle="dropdown" aria-expanded="false">
+          ABOUT
+        </a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+     </div>
+
+
+     <div>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle item02" href="#" role="button" id="navbarDropdown" data-toggle="dropdown" aria-expanded="false">
+          ROADMAP
+        </a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+     </div>
+
+     <div>
+      <li class="nav-item">
+        <a class="nav-link item02" href="#">Collection</a>
+      </li>
+     </div>
+
+     <div>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle item02" href="#" role="button" id="navbarDropdown" data-toggle="dropdown" aria-expanded="false">
+          FAQS
+        </a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+     </div>
+
+     <div class="d-flex flex-row mt-2">
+      <button class="mbutton01"><i class="fa-brands fa-discord pr-2"></i>discord</button>
+            <button class="mbutton02"><i class="fa-solid fa-wallet pr-2"></i>wallet</button>
+     </div>
+      
+    </div>
+    </div>
+  </div>
+
+      <div class="bg-container01 d-flex flex-column justify-content-end pb-5">
+        <div class="container">
+          <h2 class="heading02">EXPLORE NFT COLLECTION</h2>
+          <div class="d-flex flex-row justify-content-center">
+          <p class="paragraph01">A collection of 2525 highly-fashionable NFTs on the ETH Blockchain. Unique, 
+            metaverse-ready, and designed to benefit their holders.</p>
+        </div>
+        <div class="d-flex flex-row justify-content-center">
+          <button class="button03">connect wallet</button>
+          <button class="button04">whitelist now</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-container02 pt-5 pb-5">
+      <div class="container">
+        <h3 class="heading03 mb-5">HOW TO <span class="span01">NFTALIEN</span> WORK</h3>
+        <div class="row">
+          <div class="col-12 col-md-3 mb-4">
+            <div class="card-container h-100 pt-4 pb-4">
+              <div class="d-flex flex-row justify-content-center">
+                <img src="./assets/icon01.png" class="icon02">
+              </div>
+              <h5 class="step-heading">step 1</h5>
+              <h5 class="step-heading01">Connect Your Wallet</h5>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-3 mb-4">
+            <div class="card-container h-100 pt-4 pb-4">
+              <div class="d-flex flex-row justify-content-center">
+                <img src="./assets/icon02.png" class="icon03">
+              </div>
+              <h5 class="step-heading">step 2</h5>
+              <h5 class="step-heading01">Select Your Quality</h5>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-3 mb-4">
+            <div class="card-container h-100 pt-4 pb-4">
+              <div class="d-flex flex-row justify-content-center">
+                <img src="./assets/icon03.png" class="icon03">
+              </div>
+              <h5 class="step-heading">step 3</h5>
+              <h5 class="step-heading01">Confirm the Transaction</h5>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-3 mb-4">
+            <div class="card-container h-100 pt-4 pb-4">
+              <div class="d-flex flex-row justify-content-center">
+                <img src="./assets/icon04.png" class="icon03">
+              </div>
+              <h5 class="step-heading">step 4</h5>
+              <h5 class="step-heading01">Receive YOUR NFTs</h5>
+            </div>
+          </div>
+        </div>
+        <h3 class="heading04 pb-4 pt-3">HOT COLLECTION</h3>
+        <div class="row">
+          <div class="col-12 col-md-3 mb-4">
+            <div class="card-container01">
+              <img src="./assets/avatar01.png" class="avatar01">
+              <p class="name">sKISIRS #02</p>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-3 mb-4">
+            <div class="card-container01">
+              <img src="./assets/avatar02.png" class="avatar01">
+              <p class="name">sKISIRS #01</p>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-3 mb-4">
+            <div class="card-container01">
+              <img src="./assets/avatar03.png" class="avatar01">
+              <p class="name">sKISIRS #02</p>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-3 mb-4">
+            <div class="card-container01">
+              <img src="./assets/avatar04.png" class="avatar01">
+              <p class="name">sKISIRS #02</p>
+            </div>
+          </div>
+
+
+
+          <div class="col-12 col-md-3 mb-4">
+            <div class="card-container01">
+              <img src="./assets/avatar05.png" class="avatar01">
+              <p class="name">sKISIRS #02</p>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-3 mb-4">
+            <div class="card-container01">
+              <img src="./assets/avatar06.png" class="avatar01">
+              <p class="name">sKISIRS #01</p>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-3 mb-4">
+            <div class="card-container01">
+              <img src="./assets/avatar07.png" class="avatar01">
+              <p class="name">sKISIRS #02</p>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-3 mb-4">
+            <div class="card-container01">
+              <img src="./assets/avatar08.png" class="avatar01">
+              <p class="name">sKISIRS #02</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div class="col-12 col-md-6 mb-4">
+            <img src="./assets/vector.png" class="vector">
+            <h4 class="heading05">THE STORY</h4>
+            <p class="paragraph02">Our collection's priority is to reward NFT holders by developing utilities they can use in their current everyday life. Not in a hypothetical future.</p>
+            <div class="d-flex flex-row">
+              <div class="mr-5">
+                <h6 class="heading06">Total Item</h6>
+                <h2 class="counter">2240+</h2>
+              </div>
+
+              <div>
+                <h6 class="heading06">Profiles whitelisted</h6>
+                <h2 class="counter">1000+</h2>
+              </div>
+            </div>
+            <button class="button05">read more</button>
+          </div>
+
+          <div class="col-12 col-md-6 mb-4 mt-5 pt-5">
+            <div class="row">
+              <div class="col-12 col-md-6 mb-4">
+                <div class="card-container02 pt-5 pb-5 h-100">
+                  <div class="container">
+                    <h6 class="heading07">01</h6>
+                    <h6 class="heading08">Daily Tokens</h6>
+                    <p class="paragraph03">Earn interstellar tokens passively by staking your collectible NFT.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-md-6 mb-4">
+                <div class="card-container02 pt-5 pb-5 h-100">
+                  <div class="container">
+                    <h6 class="heading07">02</h6>
+                    <h6 class="heading08">Exclusive Discounts</h6>
+                    <p class="paragraph03">Tokens and NFTs can be used for discounts at top fashion brands.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-md-6 mb-4">
+                <div class="card-container02 pt-5 pb-5 h-100">
+                  <div class="container">
+                    <h6 class="heading07">03</h6>
+                    <h6 class="heading08">Galactic Merch</h6>
+                    <p class="paragraph03">Members-only merch designed by David and other world-renowned artists.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-md-6 mb-4">
+                <div class="card-container02 pt-5 pb-5 h-100">
+                  <div class="container">
+                    <h6 class="heading07">04</h6>
+                    <h6 class="heading08">Limited-Edition Collabs</h6>
+                    <p class="paragraph03">Get limited-edition items from Alienverse collabs with fashion and luxury brands.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img src="./assets/vector01.png" class="vector01">
+
+        <h3 class="heading03 mb-5 mt-5"> <span class="span01">BINABOX</span> PARTNER</h3>
+        <marquee direction="left" scrolldelay="0" loop="infinite">
+          <img src="./assets/company01.png" class="bat01">
+          <img src="./assets/company02.png" class="bat01">
+          <img src="./assets/company03.png" class="bat01">
+          <img src="./assets/company04.png" class="bat01">
+          <img src="./assets/company05.png" class="bat01">
+          <img src="./assets/company06.png" class="bat01">
+          <img src="./assets/company12.png" class="bat01">
+          <img src="./assets/company11.png" class="bat01">
+          <img src="./assets/company10.png" class="bat01">
+          <img src="./assets/company09.png" class="bat01">
+          <img src="./assets/company08.png" class="bat01">
+          <img src="./assets/company07.png" class="bat01">
+          <img src="./assets/company13.png" class="bat01">
+          <img src="./assets/company14.png" class="bat01">
+          <img src="./assets/company15.png" class="bat01">
+          <img src="./assets/company16.png" class="bat01">
+          <img src="./assets/company17.png" class="bat01">
+          <img src="./assets/company18.png" class="bat01">
+      </marquee>
+      </div>
+      
+      <img src="./assets/vector02.png" class="vector02">
+    </div>
+
+
+
+
+
+      <script>
+
+document.addEventListener("DOMContentLoaded", function() {
+        const menuIcon = document.querySelector("#menu01");
+        const menu = document.getElementById("menu");
+
+        menuIcon.addEventListener("click", function() {
+            if (menu.style.display === "none" || menu.style.display === "") {
+                menu.style.display = "block";
+            } else {
+                menu.style.display = "none";
+            }
+        });
+    });
+
+        $(document).ready(function(){
+            $('.dropdown-toggle').click(function(e){
+                e.preventDefault();
+                $(this).next('.dropdown-menu').toggleClass('show');
+            });
+
+            // Close the dropdown if clicked outside of it
+            $(document).click(function(e) {
+                if (!$(e.target).closest('.dropdown').length) {
+                    $('.dropdown-menu').removeClass('show');
+                }
+            });
+        });
+
+    
+    </script>
+  </body>
+</html>
